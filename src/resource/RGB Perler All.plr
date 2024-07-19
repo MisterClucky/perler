@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chain>
+  <loader />
+  <cacher />
+  <shrinker>
+    <active>true</active>
+    <maxwidth>400</maxwidth>
+    <maxheight>500</maxheight>
+    <smooth>true</smooth>
+  </shrinker>
+  <cacher />
+  <flipper>
+    <active>true</active>
+    <mode>none</mode>
+  </flipper>
+  <rotate>
+    <active>true</active>
+    <degrees>0</degrees>
+  </rotate>
+  <cropper>
+    <active>true</active>
+    <rectangle>
+      <pos>
+        <x>-2147483648</x>
+        <y>-2147483648</y>
+      </pos>
+      <pos>
+        <x>2147483647</x>
+        <y>2147483647</y>
+      </pos>
+    </rectangle>
+    <aspectwidth>1</aspectwidth>
+    <aspectheight>1</aspectheight>
+  </cropper>
+  <edge>
+    <active>false</active>
+    <fillmode>flat</fillmode>
+    <fillparam>48</fillparam>
+    <treshold>120</treshold>
+    <low>250</low>
+    <high>800</high>
+    <showedges>false</showedges>
+  </edge>
+  <cacher />
+  <shrinker>
+    <active>true</active>
+    <maxwidth>58</maxwidth>
+    <maxheight>58</maxheight>
+    <smooth>true</smooth>
+  </shrinker>
+  <grayscale>
+    <active>false</active>
+  </grayscale>
+  <balance>
+    <active>true</active>
+    <r>100</r>
+    <g>100</g>
+    <b>100</b>
+  </balance>
+  <brightnesscontrast>
+    <active>true</active>
+    <brightness>0</brightness>
+    <contrast>1.0</contrast>
+  </brightnesscontrast>
+  <reduce>
+    <active>true</active>
+    <palette>
+      <color>
+        <r>255</r>
+        <g>255</g>
+        <b>255</b>
+        <name>P1 White</name>
+      </color>
+      <color>
+        <r>228</r>
+        <g>221</g>
+        <b>169</b>
+        <name>P2 Creme</name>
+      </color>
+      <color>
+        <r>245</r>
+        <g>208</g>
+        <b>81</b>
+        <name>P3 Yellow</name>
+      </color>
+      <color>
+        <r>233</r>
+        <g>115</g>
+        <b>52</b>
+        <name>P4 Orange</name>
+      </color>
+      <color>
+        <r>173</r>
+        <g>53</g>
+        <b>63</b>
+        <name>P5 Red</name>
+      </color>
+      <color>
+        <r>210</r>
+        <g>105</g>
+        <b>153</b>
+        <name>P6 Bubblegum</name>
+      </color>
+      <color>
+        <r>99</r>
+        <g>79</g>
+        <b>161</b>
+        <name>P7 Purple</name>
+      </color>
+      <color>
+        <r>30</r>
+        <g>66</g>
+        <b>123</b>
+        <name>P8 Dark Blue</name>
+      </color>
+      <color>
+        <r>8</r>
+        <g>128</g>
+        <b>193</b>
+        <name>P9 Light Blue</name>
+      </color>
+      <color>
+        <r>5</r>
+        <g>118</g>
+        <b>79</b>
+        <name>P10 Green</name>
+      </color>
+      <color>
+        <r>42</r>
+        <g>195</g>
+        <b>174</b>
+        <name>P11 Light Green</name>
+      </color>
+      <color>
+        <r>96</r>
+        <g>72</g>
+        <b>65</b>
+        <name>P12 Brown</name>
+      </color>
+      <color>
+        <r>136</r>
+        <g>141</g>
+        <b>145</b>
+        <name>P17 Grey</name>
+      </color>
+      <color>
+        <r>0</r>
+        <g>0</g>
+        <b>0</b>
+        <name>P18 Black</name>
+      </color>
+      <color>
+        <r>145</r>
+        <g>77</g>
+        <b>68</b>
+        <name>P20 Rust</name>
+      </color>
+      <color>
+        <r>143</r>
+        <g>102</g>
+        <b>78</b>
+        <name>P21 Light Brown</name>
+      </color>
+      <color>
+        <r>237</r>
+        <g>188</g>
+        <b>179</b>
+        <name>P33 Peach</name>
+      </color>
+      <color>
+        <r>194</r>
+        <g>158</g>
+        <b>133</b>
+        <name>P35 Tan</name>
+      </color>
+      <color>
+        <r>204</r>
+        <g>50</g>
+        <b>112</b>
+        <name>P38 Magenta</name>
+      </color>
+      <color>
+        <r>186</r>
+        <g>84</g>
+        <b>103</b>
+        <name>P44 Rose</name>
+      </color>
+      <color>
+        <r>68</r>
+        <g>153</g>
+        <b>204</b>
+        <name>P52 Pastel Blue</name>
+      </color>
+      <color>
+        <r>108</r>
+        <g>199</g>
+        <b>147</b>
+        <name>P53 Pastel Green</name>
+      </color>
+      <color>
+        <r>138</r>
+        <g>126</g>
+        <b>175</b>
+        <name>P54 Pastel Lavender</name>
+      </color>
+      <color>
+        <r>233</r>
+        <g>221</g>
+        <b>136</b>
+        <name>P56 Pastel Yellow</name>
+      </color>
+      <color>
+        <r>250</r>
+        <g>171</g>
+        <b>62</b>
+        <name>P57 Cheddar</name>
+      </color>
+      <color>
+        <r>147</r>
+        <g>205</g>
+        <b>214</b>
+        <name>P58 Toothpaste</name>
+      </color>
+      <color>
+        <r>235</r>
+        <g>74</g>
+        <b>77</b>
+        <name>P59 Hot Coral</name>
+      </color>
+      <color>
+        <r>165</r>
+        <g>90</g>
+        <b>159</b>
+        <name>P60 Plum</name>
+      </color>
+      <color>
+        <r>106</r>
+        <g>189</g>
+        <b>79</b>
+        <name>P61 Kiwi Lime</name>
+      </color>
+      <color>
+        <r>0</r>
+        <g>148</g>
+        <b>191</b>
+        <name>P62 Turquoise</name>
+      </color>
+      <color>
+        <r>255</r>
+        <g>142</g>
+        <b>134</b>
+        <name>P63 Blush</name>
+      </color>
+      <color>
+        <r>101</r>
+        <g>132</g>
+        <b>182</b>
+        <name>P70 Periwinkle</name>
+      </color>
+      <color>
+        <r>231</r>
+        <g>183</g>
+        <b>201</b>
+        <name>P79 Light Pink</name>
+      </color>
+      <color>
+        <r>80</r>
+        <g>165</g>
+        <b>92</b>
+        <name>P80 Bright Green</name>
+      </color>
+      <color>
+        <r>204</r>
+        <g>72</g>
+        <b>138</b>
+        <name>P83 Pink</name>
+      </color>
+     <color>
+        <r>154</r>
+        <g>57</g>
+        <b>97</b>
+        <name>P88 Raspberry</name>
+      </color>
+      <color>
+        <r>208</r>
+        <g>140</g>
+        <b>71</b>
+        <name>P90 Butterscotch</name>
+      </color>
+      <color>
+        <r>0</r>
+        <g>139</g>
+        <b>129</b>
+        <name>P91 Parrot Green</name>
+      </color>
+      <color>
+        <r>85</r>
+        <g>89</g>
+        <b>94</b>
+        <name>P92 Dark Grey</name>
+      </color>
+      <color>
+        <r>123</r>
+        <g>163</g>
+        <b>219</b>
+        <name>P93 Blueberry Cream</name>
+      </color>
+      <color>
+        <r>121</r>
+        <g>59</g>
+        <b>73</b>
+        <name>P96 Cranapple</name>
+      </color>
+      <color>
+        <r>188</r>
+        <g>202</g>
+        <b>54</b>
+        <name>P97 Prickly Pear</name>
+      </color>
+      <color>
+        <r>235</r>
+        <g>188</g>
+        <b>152</b>
+        <name>P98 Sand</name>
+      </color>
+      <color>
+        <r>43</r>
+        <g>81</g>
+        <b>62</b>
+        <name>179 Evergreen</name>
+      </color>
+      <color>
+        <r>177</r>
+        <g>184</g>
+        <b>184</b>
+        <name>181 Light Grey</name>
+      </color>
+      <color>
+        <r>166</r>
+        <g>155</g>
+        <b>203</b>
+        <name>182 Lavender</name>
+      </color>
+      <color>
+        <r>0</r>
+        <g>137</g>
+        <b>83</b>
+        <name>199 Shamrock</name>
+      </color>
+      <color>
+        <r>0</r>
+        <g>93</g>
+        <b>168</b>
+        <name>200 Cobalt</name>
+      </color>
+      <color>
+        <r>44</r>
+        <g>54</g>
+        <b>77</b>
+        <name>201 Midnight</name>
+      </color>
+      <color>
+        <r>163</r>
+        <g>202</g>
+        <b>213</b>
+        <name>202 Robin's Egg</name>
+      </color>
+      <color>
+        <r>239</r>
+        <g>169</g>
+        <b>177</b>
+        <name>203 Flamingo</name>
+      </color>
+      <color>
+        <r>225</r>
+        <g>108</g>
+        <b>116</b>
+        <name>204 Salmon</name>
+      </color>
+      <color>
+        <r>195</r>
+        <g>169</g>
+        <b>141</b>
+        <name>205 Fawn</name>
+      </color>
+      <color>
+        <r>136</r>
+        <g>152</g>
+        <b>152</b>
+        <name>206 Pewter</name>
+      </color>
+      <color>
+        <r>77</r>
+        <g>89</g>
+        <b>89</b>
+        <name>207 Charcoal</name>
+      </color>
+      <color>
+        <r>217</r>
+        <g>210</g>
+        <b>202</b>
+        <name>208 Toasted Marshmallow</name>
+      </color>
+      <color>
+        <r>157</r>
+        <g>103</g>
+        <b>143</b>
+        <name>210 Orchid</name>
+      </color>
+      <color>
+        <r>186</r>
+        <g>57</g>
+        <b>55</b>
+        <name>211 Tomato</name>
+      </color>
+      <color>
+        <r>195</r>
+        <g>86</g>
+        <b>84</b>
+        <name>212 Spice</name>
+      </color>
+      <color>
+        <r>238</r>
+        <g>154</g>
+        <b>103</b>
+        <name>213 Apricot</name>
+      </color>
+      <color>
+        <r>209</r>
+        <g>223</g>
+        <b>124</b>
+        <name>214 Sherbet</name>
+      </color>
+      <color>
+        <r>139</r>
+        <g>168</g>
+        <b>183</b>
+        <name>215 Mist</name>
+      </color>
+      <color>
+        <r>84</r>
+        <g>192</g>
+        <b>219</b>
+        <name>216 Sky</name>
+      </color>
+      <color>
+        <r>0</r>
+        <g>161</g>
+        <b>173</b>
+        <name>217 Lagoon</name>
+      </color>
+      <color>
+        <r>31</r>
+        <g>126</g>
+        <b>139</b>
+        <name>218 Teal</name>
+      </color>
+      <color>
+        <r>110</r>
+        <g>140</g>
+        <b>48</b>
+        <name>219 Fern</name>
+      </color>
+      <color>
+        <r>103</r>
+        <g>108</g>
+        <b>65</b>
+        <name>220 Olive</name>
+      </color>
+      <color>
+        <r>149</r>
+        <g>217</g>
+        <b>203</b>
+        <name>240 Mint</name>
+      </color>
+      <color>
+        <r>151</r>
+        <g>206</g>
+        <b>109</b>
+        <name>241 Sour Apple</name>
+      </color>
+      <color>
+        <r>212</r>
+        <g>116</g>
+        <b>167</b>
+        <name>242 Cotton Candy</name>
+      </color>
+      <color>
+        <r>71</r>
+        <g>61</g>
+        <b>141</b>
+        <name>243 Grape</name>
+      </color>
+      <color>
+        <r>74</r>
+        <g>86</g>
+        <b>153</b>
+        <name>245 Iris</name>
+      </color>
+      <color>
+        <r>213</r>
+        <g>77</g>
+        <b>38</b>
+        <name>246 Tangerine</name>
+      </color>
+      <color>
+        <r>8</r>
+        <g>85</g>
+        <b>81</b>
+        <name>247 Forest</name>
+      </color>
+      <color>
+        <r>107</r>
+        <g>61</g>
+        <b>85</b>
+        <name>248 Eggplant</name>
+      </color>
+      <color>
+        <r>184</r>
+        <g>125</g>
+        <b>53</b>
+        <name>249 Honey</name>
+      </color>
+      <color>
+        <r>121</r>
+        <g>78</g>
+        <b>67</b>
+        <name>250 Gingerbread</name>
+      </color>
+      <color>
+        <r>155</r>
+        <g>37</g>
+        <b>58</b>
+        <name>961 Cherry</name>
+      </color>
+    </palette>
+    <dither>0.8</dither>
+  </reduce>
+  <upscaler>
+    <active>true</active>
+    <magnification>8</magnification>
+    <effect>beads</effect>
+    <drawtiles>false</drawtiles>
+    <tilewidth>29</tilewidth>
+    <tileheight>29</tileheight>
+  </upscaler>
+  <cacher />
+</chain>
